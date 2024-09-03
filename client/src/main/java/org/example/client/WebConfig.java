@@ -34,7 +34,7 @@ public class WebConfig {
 //        requestFactory.setConnectionRequestTimeout(3000);
 
         RestTemplate restTemplate = new RestTemplate();
-        restTemplate.getInterceptors().add(localPortLoggingInterceptor);
+        // restTemplate.getInterceptors().add(localPortLoggingInterceptor);
         return restTemplate;
     }
 
