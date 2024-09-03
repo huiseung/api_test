@@ -1,0 +1,11 @@
+server:
+  port: 7000
+  tomcat:
+    threads:
+      min-spare: 20
+      max: 200
+
+#spring:
+#  threads:
+#    virtual:
+#      enabled: true
